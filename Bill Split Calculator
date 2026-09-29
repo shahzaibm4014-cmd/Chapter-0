@@ -1,0 +1,14 @@
+#Write a program that takes total bill amount and number of friends as input.
+#Calculate how much each person will pay.
+#Also print the data type of each variable used.
+
+Bill = float(input("Enter bill amount : "))
+Freinds = int(input("Enter number of freinds : "))
+
+divide = Bill / Freinds
+
+print("Each person will pay : ", divide)
+
+print("Data type of Bill is : " , type(Bill))
+print("Data type of Freinds is : " , type(Freinds))
+print("Data type of divide is : " , type(divide))
